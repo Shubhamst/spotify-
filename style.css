@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+ }
+ #nav{ 
+   height: 80px;
+   width: 100%;
+   color:white;
+   display: flex ;
+   padding-top: 12px;
+   background-color: black;
+   justify-content: space-around;
+   align-items: center;
+}
+ul{
+   display:flex;
+   justify-content:space-between;
+   float: right;
+   gap: 19px;
+   margin-bottom: 6px;
+   font-size: 24px;
+} 
+
+
+.logo img{
+    width: 130px;
+
+}
+#photo img{
+    height: 100%;
+    width: 100%;
+    z-index: 900;
+   
+
+}
+h1{
+    position: absolute;
+    top: 38%;
+    right: 11%;
+    color: white;
+    font-size: 65px;
+}
+button{
+    position: absolute;
+    top: 63%;
+    left: 44%;
+    padding: 12px 20px;
+    margin: 15px;
+    text-align:center;
+    color: black;
+    border-radius: 300px;
+    border-color: white;
+}
+.image1 img{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 280px;
+    overflow: hidden;
+    
+}
+.image2 img{
+    position: absolute;
+    top: 39%;
+    left: 20.8%;
+    width: 260px;
+    
+}
+
